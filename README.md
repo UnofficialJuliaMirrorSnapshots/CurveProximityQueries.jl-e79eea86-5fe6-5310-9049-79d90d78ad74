@@ -12,7 +12,7 @@ CurveProximityQueries implements methods to compute the
  - Tolerance Verification
  - Collision Detection
 
-between an absolutely continuous parametric curve and another object, or between two curves. If you find this package/work useful in your research please cite:
+between an absolutely continuous parametric curve and another object, or between two curves. If you find this package/work useful in your research please cite our [paper](https://arxiv.org/pdf/1902.05027.pdf):
 ```
 @article{lakshmanan2019proximity,
   title={Proximity Queries for Absolutely Continuous Parametric Curves},
@@ -72,7 +72,7 @@ Several algebraic operations over Bernstein polynomials are available for conven
 
 ### Obstacle Types
 
-Several obstacle types are provided with convenience macros:
+Several obstacle types are provided with convenience macros from [ConvexBodyProximityQueries.jl](https://github.com/arlk/ConvexBodyProximityQueries.jl):
 ```julia
 julia> @point rand(3)
 ConvexPolygon{3,1,Float64}(SArray{Tuple{3},Float64,1,3}[[0.135678, 0.840508, 0.140532]])
